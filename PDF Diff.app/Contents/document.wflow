@@ -250,7 +250,7 @@
 					<key>outputDirectory</key>
 					<string>~/Desktop</string>
 					<key>outputName</key>
-					<string>.pdf1_contents</string>
+					<string>pdfContents2</string>
 					<key>outputNamingMode</key>
 					<integer>1</integer>
 					<key>outputTextKind</key>
@@ -353,7 +353,7 @@
 				<key>ActionParameters</key>
 				<dict>
 					<key>defaultLocation</key>
-					<string>~/Desktop</string>
+					<string>~</string>
 					<key>granularity</key>
 					<integer>0</integer>
 					<key>multipleSelection</key>
@@ -376,7 +376,7 @@
 				<key>Class Name</key>
 				<string>AMAskForFinderItemsAction</string>
 				<key>IgnoresInput</key>
-				<false/>
+				<true/>
 				<key>InputUUID</key>
 				<string>B2B86772-2C1B-4459-B42E-4F2BACB97531</string>
 				<key>Keywords</key>
@@ -536,7 +536,7 @@
 					<key>outputDirectory</key>
 					<string>~/Desktop</string>
 					<key>outputName</key>
-					<string>.pdf2_contents</string>
+					<string>pdfContents1</string>
 					<key>outputNamingMode</key>
 					<integer>1</integer>
 					<key>outputTextKind</key>
@@ -631,13 +631,13 @@
 				<key>ActionParameters</key>
 				<dict>
 					<key>COMMAND_STRING</key>
-					<string>opendiff ~/.pdf1_contents.txt ~/.pdf2_contents.txt</string>
+					<string>opendiff ~/Desktop/pdfContents1.txt ~/Desktop/pdfContents2.txt</string>
 					<key>CheckedForUserDefaultShell</key>
 					<true/>
 					<key>inputMethod</key>
 					<integer>0</integer>
 					<key>shell</key>
-					<string>/usr/local/bin/fish</string>
+					<string>/bin/sh</string>
 					<key>source</key>
 					<string></string>
 				</dict>
@@ -756,28 +756,28 @@
 	</array>
 	<key>connectors</key>
 	<dict>
-		<key>314C9D41-1900-4765-B39C-BDD9946D797E</key>
-		<dict>
-			<key>from</key>
-			<string>5068ABF4-87E1-47DD-9E54-C8C17AA6D3D3 - 5068ABF4-87E1-47DD-9E54-C8C17AA6D3D3</string>
-			<key>to</key>
-			<string>8F5E7064-6E03-4161-9C69-9032A405036A - 8F5E7064-6E03-4161-9C69-9032A405036A</string>
-		</dict>
-		<key>3F8AFB68-3E66-41BB-869C-73C2E0FA4F0F</key>
+		<key>1FF1307F-CFEF-4D74-9D2C-69DBD15659F6</key>
 		<dict>
 			<key>from</key>
 			<string>DAB28CCA-8D11-4FFA-9224-662651A4B13A - DAB28CCA-8D11-4FFA-9224-662651A4B13A</string>
 			<key>to</key>
 			<string>862F9484-211D-49DD-BAAD-C971FD65C8E8 - 862F9484-211D-49DD-BAAD-C971FD65C8E8</string>
 		</dict>
-		<key>9419EB0C-A82A-40E2-BEB3-E75824F23BED</key>
+		<key>23578297-A227-4E00-B50D-B993FE0869D9</key>
 		<dict>
 			<key>from</key>
 			<string>862F9484-211D-49DD-BAAD-C971FD65C8E8 - 862F9484-211D-49DD-BAAD-C971FD65C8E8</string>
 			<key>to</key>
 			<string>060AB91C-AC2A-4D87-A076-0047B733DED5 - 060AB91C-AC2A-4D87-A076-0047B733DED5</string>
 		</dict>
-		<key>EBF3E072-F2F4-49C6-B19F-95925FB3EE5D</key>
+		<key>25781E67-D45C-4E1A-8AFE-B1647DB67813</key>
+		<dict>
+			<key>from</key>
+			<string>5068ABF4-87E1-47DD-9E54-C8C17AA6D3D3 - 5068ABF4-87E1-47DD-9E54-C8C17AA6D3D3</string>
+			<key>to</key>
+			<string>8F5E7064-6E03-4161-9C69-9032A405036A - 8F5E7064-6E03-4161-9C69-9032A405036A</string>
+		</dict>
+		<key>E21DCBFC-C2B1-4C31-8EDE-62D4D92A86E3</key>
 		<dict>
 			<key>from</key>
 			<string>060AB91C-AC2A-4D87-A076-0047B733DED5 - 060AB91C-AC2A-4D87-A076-0047B733DED5</string>

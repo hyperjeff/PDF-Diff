@@ -167,7 +167,7 @@
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>305.500000:1073.000000</string>
+				<string>305.500000:1253.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Ask for Finder Items.action/Contents/Resources/English.lproj/main.nib</string>
 			</dict>
@@ -248,9 +248,9 @@
 					<key>headerTemplate</key>
 					<string>--- ##Page ---</string>
 					<key>outputDirectory</key>
-					<string>~</string>
+					<string>~/Desktop</string>
 					<key>outputName</key>
-					<string>.pdf1_contents</string>
+					<string>pdfContents2</string>
 					<key>outputNamingMode</key>
 					<integer>1</integer>
 					<key>outputTextKind</key>
@@ -289,7 +289,7 @@
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>305.500000:918.000000</string>
+				<string>305.500000:1098.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Extract PDF Text.action/Contents/Resources/English.lproj/main.nib</string>
 			</dict>
@@ -353,7 +353,7 @@
 				<key>ActionParameters</key>
 				<dict>
 					<key>defaultLocation</key>
-					<string>~/Desktop</string>
+					<string>~</string>
 					<key>granularity</key>
 					<integer>0</integer>
 					<key>multipleSelection</key>
@@ -376,7 +376,7 @@
 				<key>Class Name</key>
 				<string>AMAskForFinderItemsAction</string>
 				<key>IgnoresInput</key>
-				<false/>
+				<true/>
 				<key>InputUUID</key>
 				<string>B2B86772-2C1B-4459-B42E-4F2BACB97531</string>
 				<key>Keywords</key>
@@ -455,7 +455,7 @@
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>305.500000:633.000000</string>
+				<string>305.500000:813.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Ask for Finder Items.action/Contents/Resources/English.lproj/main.nib</string>
 			</dict>
@@ -534,9 +534,9 @@
 					<key>headerTemplate</key>
 					<string>--- ##Page ---</string>
 					<key>outputDirectory</key>
-					<string>~</string>
+					<string>~/Desktop</string>
 					<key>outputName</key>
-					<string>.pdf2_contents</string>
+					<string>pdfContents1</string>
 					<key>outputNamingMode</key>
 					<integer>1</integer>
 					<key>outputTextKind</key>
@@ -575,7 +575,7 @@
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>305.500000:478.000000</string>
+				<string>305.500000:658.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Extract PDF Text.action/Contents/Resources/English.lproj/main.nib</string>
 			</dict>
@@ -631,13 +631,13 @@
 				<key>ActionParameters</key>
 				<dict>
 					<key>COMMAND_STRING</key>
-					<string>opendiff ~/.pdf1_contents.txt ~/.pdf2_contents.txt</string>
+					<string>opendiff ~/Desktop/pdfContents1.txt ~/Desktop/pdfContents2.txt</string>
 					<key>CheckedForUserDefaultShell</key>
 					<true/>
 					<key>inputMethod</key>
 					<integer>0</integer>
 					<key>shell</key>
-					<string>/usr/local/bin/fish</string>
+					<string>/bin/sh</string>
 					<key>source</key>
 					<string></string>
 				</dict>
@@ -746,7 +746,7 @@
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>305.500000:193.000000</string>
+				<string>305.500000:373.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Run Shell Script.action/Contents/Resources/English.lproj/main.nib</string>
 			</dict>
@@ -756,28 +756,28 @@
 	</array>
 	<key>connectors</key>
 	<dict>
-		<key>4B43C689-4087-4E0D-A69F-828E27EABF7F</key>
+		<key>34237AF5-F473-4F31-9033-00B8CF292368</key>
 		<dict>
 			<key>from</key>
-			<string>862F9484-211D-49DD-BAAD-C971FD65C8E8 - 862F9484-211D-49DD-BAAD-C971FD65C8E8</string>
-			<key>to</key>
 			<string>060AB91C-AC2A-4D87-A076-0047B733DED5 - 060AB91C-AC2A-4D87-A076-0047B733DED5</string>
+			<key>to</key>
+			<string>5068ABF4-87E1-47DD-9E54-C8C17AA6D3D3 - 5068ABF4-87E1-47DD-9E54-C8C17AA6D3D3</string>
 		</dict>
-		<key>634094C1-8422-4EF9-BE91-617E38BE49FE</key>
+		<key>35DD354E-55E9-4500-96A3-40037D05CBE7</key>
 		<dict>
 			<key>from</key>
 			<string>5068ABF4-87E1-47DD-9E54-C8C17AA6D3D3 - 5068ABF4-87E1-47DD-9E54-C8C17AA6D3D3</string>
 			<key>to</key>
 			<string>8F5E7064-6E03-4161-9C69-9032A405036A - 8F5E7064-6E03-4161-9C69-9032A405036A</string>
 		</dict>
-		<key>7A31B3C1-DE06-4084-95A7-6671C4DDC2F3</key>
+		<key>4E0517E8-77F1-4051-B1C3-39BCB25FF3C5</key>
 		<dict>
 			<key>from</key>
-			<string>060AB91C-AC2A-4D87-A076-0047B733DED5 - 060AB91C-AC2A-4D87-A076-0047B733DED5</string>
+			<string>862F9484-211D-49DD-BAAD-C971FD65C8E8 - 862F9484-211D-49DD-BAAD-C971FD65C8E8</string>
 			<key>to</key>
-			<string>5068ABF4-87E1-47DD-9E54-C8C17AA6D3D3 - 5068ABF4-87E1-47DD-9E54-C8C17AA6D3D3</string>
+			<string>060AB91C-AC2A-4D87-A076-0047B733DED5 - 060AB91C-AC2A-4D87-A076-0047B733DED5</string>
 		</dict>
-		<key>EFFE054D-AA24-4620-9B33-779237FEC376</key>
+		<key>F152845F-AA6E-4D38-8A05-2D19E5EF8EAE</key>
 		<dict>
 			<key>from</key>
 			<string>DAB28CCA-8D11-4FFA-9224-662651A4B13A - DAB28CCA-8D11-4FFA-9224-662651A4B13A</string>
