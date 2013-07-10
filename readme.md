@@ -15,4 +15,7 @@ The script saves the output of each PDF's text contents as pdfContents1 and pdfC
 To update source, open PDF Diff.workflow in Automator and edit there.
 Do not try to edit the script in a text editor.
 
+![Automator Workflow Screenshot](https://raw.github.com/hyperjeff/PDF-Diff/master/PDF%20Diff.workflow/Contents/QuickLook/Preview.png)
+
+
 License type: BSD. Use, share.
