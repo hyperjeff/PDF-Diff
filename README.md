@@ -1,4 +1,4 @@
-PDF plain text diff
+PDF Diff
 ===========
 
 Extracts plain text from pdfs and then compares their differences using FileMerge (requires dev tools to be installed). Rudimentary 5-minute implementation. Making it nicer to use, win prizes.
