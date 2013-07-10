@@ -67,7 +67,7 @@
 				<key>ActionParameters</key>
 				<dict>
 					<key>defaultLocation</key>
-					<string>~/Desktop</string>
+					<string>~</string>
 					<key>granularity</key>
 					<integer>0</integer>
 					<key>multipleSelection</key>
@@ -250,7 +250,7 @@
 					<key>outputDirectory</key>
 					<string>~/Desktop</string>
 					<key>outputName</key>
-					<string>pdfContents2</string>
+					<string>pdfContents1</string>
 					<key>outputNamingMode</key>
 					<integer>1</integer>
 					<key>outputTextKind</key>
@@ -536,7 +536,7 @@
 					<key>outputDirectory</key>
 					<string>~/Desktop</string>
 					<key>outputName</key>
-					<string>pdfContents1</string>
+					<string>pdfContents2</string>
 					<key>outputNamingMode</key>
 					<integer>1</integer>
 					<key>outputTextKind</key>
@@ -756,33 +756,33 @@
 	</array>
 	<key>connectors</key>
 	<dict>
-		<key>1FF1307F-CFEF-4D74-9D2C-69DBD15659F6</key>
+		<key>02477F91-835D-4147-A780-88ACEA635872</key>
+		<dict>
+			<key>from</key>
+			<string>060AB91C-AC2A-4D87-A076-0047B733DED5 - 060AB91C-AC2A-4D87-A076-0047B733DED5</string>
+			<key>to</key>
+			<string>5068ABF4-87E1-47DD-9E54-C8C17AA6D3D3 - 5068ABF4-87E1-47DD-9E54-C8C17AA6D3D3</string>
+		</dict>
+		<key>03A04DA0-F9E3-4A7A-8E84-A92B6F4E5C22</key>
 		<dict>
 			<key>from</key>
 			<string>DAB28CCA-8D11-4FFA-9224-662651A4B13A - DAB28CCA-8D11-4FFA-9224-662651A4B13A</string>
 			<key>to</key>
 			<string>862F9484-211D-49DD-BAAD-C971FD65C8E8 - 862F9484-211D-49DD-BAAD-C971FD65C8E8</string>
 		</dict>
-		<key>23578297-A227-4E00-B50D-B993FE0869D9</key>
+		<key>0BD12D7C-6B77-477F-9885-DA3E8D11E6DA</key>
 		<dict>
 			<key>from</key>
 			<string>862F9484-211D-49DD-BAAD-C971FD65C8E8 - 862F9484-211D-49DD-BAAD-C971FD65C8E8</string>
 			<key>to</key>
 			<string>060AB91C-AC2A-4D87-A076-0047B733DED5 - 060AB91C-AC2A-4D87-A076-0047B733DED5</string>
 		</dict>
-		<key>25781E67-D45C-4E1A-8AFE-B1647DB67813</key>
+		<key>B9D21743-50F9-4223-9C32-332E3ADC97BC</key>
 		<dict>
 			<key>from</key>
 			<string>5068ABF4-87E1-47DD-9E54-C8C17AA6D3D3 - 5068ABF4-87E1-47DD-9E54-C8C17AA6D3D3</string>
 			<key>to</key>
 			<string>8F5E7064-6E03-4161-9C69-9032A405036A - 8F5E7064-6E03-4161-9C69-9032A405036A</string>
-		</dict>
-		<key>E21DCBFC-C2B1-4C31-8EDE-62D4D92A86E3</key>
-		<dict>
-			<key>from</key>
-			<string>060AB91C-AC2A-4D87-A076-0047B733DED5 - 060AB91C-AC2A-4D87-A076-0047B733DED5</string>
-			<key>to</key>
-			<string>5068ABF4-87E1-47DD-9E54-C8C17AA6D3D3 - 5068ABF4-87E1-47DD-9E54-C8C17AA6D3D3</string>
 		</dict>
 	</dict>
 	<key>variables</key>
