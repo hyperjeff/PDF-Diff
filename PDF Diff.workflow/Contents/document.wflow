@@ -67,7 +67,7 @@
 				<key>ActionParameters</key>
 				<dict>
 					<key>defaultLocation</key>
-					<string>~/Desktop</string>
+					<string>~</string>
 					<key>granularity</key>
 					<integer>0</integer>
 					<key>multipleSelection</key>
@@ -167,7 +167,7 @@
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>302.000000:1073.000000</string>
+				<string>305.500000:1073.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Ask for Finder Items.action/Contents/Resources/English.lproj/main.nib</string>
 			</dict>
@@ -289,7 +289,7 @@
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>302.000000:918.000000</string>
+				<string>305.500000:918.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Extract PDF Text.action/Contents/Resources/English.lproj/main.nib</string>
 			</dict>
@@ -455,7 +455,7 @@
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>302.000000:633.000000</string>
+				<string>305.500000:633.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Ask for Finder Items.action/Contents/Resources/English.lproj/main.nib</string>
 			</dict>
@@ -575,7 +575,7 @@
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>302.000000:478.000000</string>
+				<string>305.500000:478.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Extract PDF Text.action/Contents/Resources/English.lproj/main.nib</string>
 			</dict>
@@ -746,7 +746,7 @@
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>302.000000:193.000000</string>
+				<string>305.500000:193.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Run Shell Script.action/Contents/Resources/English.lproj/main.nib</string>
 			</dict>
@@ -756,33 +756,33 @@
 	</array>
 	<key>connectors</key>
 	<dict>
-		<key>566D06F5-4EFC-4DB6-901E-FA98096C5B79</key>
-		<dict>
-			<key>from</key>
-			<string>060AB91C-AC2A-4D87-A076-0047B733DED5 - 060AB91C-AC2A-4D87-A076-0047B733DED5</string>
-			<key>to</key>
-			<string>5068ABF4-87E1-47DD-9E54-C8C17AA6D3D3 - 5068ABF4-87E1-47DD-9E54-C8C17AA6D3D3</string>
-		</dict>
-		<key>59DBB342-2E97-4C49-AE2E-50A3CAE0C6A5</key>
-		<dict>
-			<key>from</key>
-			<string>5068ABF4-87E1-47DD-9E54-C8C17AA6D3D3 - 5068ABF4-87E1-47DD-9E54-C8C17AA6D3D3</string>
-			<key>to</key>
-			<string>8F5E7064-6E03-4161-9C69-9032A405036A - 8F5E7064-6E03-4161-9C69-9032A405036A</string>
-		</dict>
-		<key>B76915BB-AAE6-4374-98BC-C07EEE16E6F2</key>
+		<key>03CF2152-2521-4A31-BA1E-F688A9B92454</key>
 		<dict>
 			<key>from</key>
 			<string>862F9484-211D-49DD-BAAD-C971FD65C8E8 - 862F9484-211D-49DD-BAAD-C971FD65C8E8</string>
 			<key>to</key>
 			<string>060AB91C-AC2A-4D87-A076-0047B733DED5 - 060AB91C-AC2A-4D87-A076-0047B733DED5</string>
 		</dict>
-		<key>BC9D5D79-03F9-47E9-A390-7865A1ECE96C</key>
+		<key>34C7752B-FBF1-4728-B2F2-A68D23FFB211</key>
+		<dict>
+			<key>from</key>
+			<string>060AB91C-AC2A-4D87-A076-0047B733DED5 - 060AB91C-AC2A-4D87-A076-0047B733DED5</string>
+			<key>to</key>
+			<string>5068ABF4-87E1-47DD-9E54-C8C17AA6D3D3 - 5068ABF4-87E1-47DD-9E54-C8C17AA6D3D3</string>
+		</dict>
+		<key>5D298014-4BDC-4591-BAB6-61C69CC20314</key>
 		<dict>
 			<key>from</key>
 			<string>DAB28CCA-8D11-4FFA-9224-662651A4B13A - DAB28CCA-8D11-4FFA-9224-662651A4B13A</string>
 			<key>to</key>
 			<string>862F9484-211D-49DD-BAAD-C971FD65C8E8 - 862F9484-211D-49DD-BAAD-C971FD65C8E8</string>
+		</dict>
+		<key>EA8B171A-2605-47EF-80E5-4D141FB8CEC2</key>
+		<dict>
+			<key>from</key>
+			<string>5068ABF4-87E1-47DD-9E54-C8C17AA6D3D3 - 5068ABF4-87E1-47DD-9E54-C8C17AA6D3D3</string>
+			<key>to</key>
+			<string>8F5E7064-6E03-4161-9C69-9032A405036A - 8F5E7064-6E03-4161-9C69-9032A405036A</string>
 		</dict>
 	</dict>
 	<key>variables</key>
